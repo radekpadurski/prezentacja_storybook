@@ -38,3 +38,9 @@ Small.args = {
   size: 'small',
   label: 'Button',
 };
+
+export const CustomColor = Template.bind({});
+CustomColor.args = {
+  label: "Custom Color",
+  backgroundColor: "coral",
+};
